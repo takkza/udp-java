@@ -9,8 +9,18 @@ public class Udpflood {
 		SecureRandom random = new SecureRandom();
 
 		if (args.length != 2) {
-            System.err.println("Flood By; Shadow Tak");
-			System.err.println("Usage: IP PORT");
+System.err.println("
+
+██╗   ██╗██████╗ ██████╗          ██╗ █████╗ ██╗   ██╗ █████╗     
+██║   ██║██╔══██╗██╔══██╗         ██║██╔══██╗██║   ██║██╔══██╗    
+██║   ██║██║  ██║██████╔╝         ██║███████║██║   ██║███████║    
+██║   ██║██║  ██║██╔═══╝     ██   ██║██╔══██║╚██╗ ██╔╝██╔══██║    
+╚██████╔╝██████╔╝██║         ╚█████╔╝██║  ██║ ╚████╔╝ ██║  ██║    
+ ╚═════╝ ╚═════╝ ╚═╝          ╚════╝ ╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝    
+                                                                  
+")
+System.err.println("Flood By; Shadow Tak");
+System.err.println("Usage: IP PORT");
 			System.exit(-1);
 		}
 
